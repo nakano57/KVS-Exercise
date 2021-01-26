@@ -170,7 +170,7 @@ int main(int argc, char **argv)
 
     OpacitySlider opacity(&screen);
     opacity.setPosition(checkbox.x(), checkbox.y() + checkbox.height());
-    opacity.setValue(0.5);
+    opacity.setValue(1);
     opacity.setRange(0, 1);
     opacity.show();
 
